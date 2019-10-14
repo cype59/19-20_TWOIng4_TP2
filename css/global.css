@@ -20,10 +20,13 @@ a {
 
 .wrapper {
     padding: 25px 0;
+    padding-bottom: 47px;
 }
 
 body > header {
     margin-bottom: 20px;
+    padding-bottom: 25px;
+    padding-top: 25px;
     background: white;
     box-shadow: 1px 0px 8px rgb(200, 200, 200);
 }
@@ -54,7 +57,7 @@ main article {
 h3 {
     color: #b8c3c9;
     text-transform: uppercase;
-    font-size: 11px;
+    font-size: 0.75em !important;    
     font-weight: normal;
     margin-bottom: 10px;
 }
