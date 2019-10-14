@@ -163,6 +163,7 @@ input.submit {
     box-shadow: 1px 1px #d5d5d5;
     background: url("../img/icon/station.png") no-repeat 8px;
     transition: all 0.4s;
+    float: right;
 }
 
 .station:hover {
