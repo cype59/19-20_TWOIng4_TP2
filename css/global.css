@@ -192,7 +192,6 @@ input.submit {
 #albums article figcaption {
     color: #4b5c66;
     margin-top: 6px;
-    white-space: nowrap;
     text-overflow: ellipsis;
 }
 
