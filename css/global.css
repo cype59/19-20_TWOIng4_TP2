@@ -11,6 +11,8 @@
 
 body {
     background: linear-gradient(to bottom, #efefef, white) no-repeat;
+    font-size: 13px;
+
 }
 
 a {
@@ -218,6 +220,34 @@ nav a.top { background: url("../img/icon/top.png") no-repeat 0px; }
 nav a.new { background: url("../img/icon/new.png") no-repeat 0px; }
 nav a.collection { background: url("../img/icon/collection.png") no-repeat 0px; }
 nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
+
+@media (max-width: 575.98px) {
+    input.search {
+        display: none;
+    }
+
+    .share {
+        display: none;
+    }
+}
+
+@media (max-width: 1400px) {
+    body {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 450px) {
+    body {
+        font-size: 8px;
+    }
+}
 
 
 
